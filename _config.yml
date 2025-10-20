@@ -56,9 +56,9 @@ navigation:
       - title: "Seminar"
         url: "/noushique/seminar"
 
-   - title: "BCA"
+  - title: "BCA"
     dropdown:
       - title: "Sinan"
         dropdown:
-        - title: "Assignment"
-          url: "/sinan/assignment"
+          - title: "Assignment"
+            url: "/sinan/assignment"
