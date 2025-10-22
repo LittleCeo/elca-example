@@ -1,6 +1,6 @@
 # Site title and description
-title: "Your Site Title"
-title_short: "YST" # Short version for header
+title: "Elca"
+title_short: ""
 description: "Your site description"
 keywords: "your,keywords,here"
 author: "Qxel"
@@ -9,56 +9,34 @@ remote_theme: mr-izu/elca
 plugins:
   - jekyll-remote-theme
 # Logo (optional)
-logo: "https://mr-izu.github.io/logos/qxel/transparent_logo.png" # Path to your logo
+logo: "https://mr-izu.github.io/logos/elca.png" # Path to your logo
 
-# Navigation configuration
-navigation:
-  - title: "Home"
-    url: "/"
+# NEW Navigation configuration - Updated for the new navigation system
+nav:
+  - Home: index.md
   
-  - title: "Adnan"
-    dropdown:
-      - title: "Assignment"
-        url: "/adnan/assignment"
-      - title: "Seminar"
-        url: "/adnan/seminar"
+  - Adnan:
+    - Assignment: /adnan/assignment
+    - Seminar: /adnan/seminar
 
-  - title: "Jaseel"
-    dropdown:
-      - title: "Assignment"
-        url: "/jaseel/assignment"
-      - title: "Athulya Assignment"
-        url: "/jaseel/athulya_assignment"
-      - title: "Navas Assignment"
-        url: "/jaseel/navas_assignment"
+  - Jaseel:
+    - Assignment: /jaseel/assignment
+    - "Athulya Assignment": /jaseel/athulya_assignment
+    - "Navas Assignment": /jaseel/navas_assignment
 
-  - title: "My Notes"
-    dropdown:
-      - title: "Aseena Assignment"
-        url: "/my/aseena_assignment"
-      - title: "Aseena Seminar"
-        url: "/my/aseena_seminar"
-      - title: "Assignment"
-        url: "/my/assignment"
-      - title: "Athulya Assignment"
-        url: "/my/athulya_assignment"
-      - title: "Seminar"
-        url: "/my/seminar"
-      - title: "Suji Assignment"
-        url: "/my/suji_assignment"
-      - title: "Suji Seminar"
-        url: "/my/suji_seminar"
+  - "My Notes":
+    - "Aseena Assignment": /my/aseena_assignment
+    - "Aseena Seminar": /my/aseena_seminar
+    - Assignment: /my/assignment
+    - "Athulya Assignment": /my/athulya_assignment
+    - Seminar: /my/seminar
+    - "Suji Assignment": /my/suji_assignment
+    - "Suji Seminar": /my/suji_seminar
 
-  - title: "Noushique"
-    dropdown:
-      - title: "Assignment"
-        url: "/noushique/assignment"
-      - title: "Seminar"
-        url: "/noushique/seminar"
+  - Noushique:
+    - Assignment: /noushique/assignment
+    - Seminar: /noushique/seminar
 
-  - title: "BCA"
-    dropdown:
-      - title: "Sinan"
-        dropdown:
-          - title: "Assignment"
-            url: "/sinan/assignment"
+  - BCA:
+    - Sinan:
+      - Assignment: /sinan/assignment
