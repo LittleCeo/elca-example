@@ -35,6 +35,8 @@ navigation:
     - Seminar: /noushique/seminar
   BCA:
     - "Sinan Assignment": /sinan/assignment
-  NESTER:
-    NEST1:
-    - "nest trying":/sinan/assignment
+  Calicut:
+    - BEPOLI:
+      - "Operating Project": /calicut/bepoli/op
+    - NIKKOLA:
+      - "Nokil project": /calicut/nikkola/noki
