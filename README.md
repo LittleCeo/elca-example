@@ -2,5 +2,3 @@ j
 
 ak
 wlej
-
-aiw
