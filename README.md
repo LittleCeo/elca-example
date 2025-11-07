@@ -4,4 +4,3 @@ ak
 wlej
 
 aiw
-ftg
