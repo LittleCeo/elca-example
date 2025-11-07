@@ -4,12 +4,12 @@ title_short: ""
 description: "Your site description"
 keywords: "your,keywords,here"
 author: "Qxel"
-remote_theme: mr-izu/elca
+remote_theme: LittleCeo/elca
 
 plugins:
   - jekyll-remote-theme
 # Logo (optional)
-logo: "https://mr-izu.github.io/logos/elca.png" # Path to your logo
+logo: "https://Littleceo.github.io/logos/elca.png" # Path to your logo
 
 # NEW Navigation configuration - Updated for the new navigation system
 navigation:
