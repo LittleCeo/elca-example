@@ -12,7 +12,6 @@ plugins:
 logo: "https://Littleceo.github.io/logos/elca.png" # Path to your logo
 
 # NEW Navigation configuration - Updated for the new navigation system
-# NEW Navigation configuration - Updated for the new navigation system
 navigation:
   - title: "Home"
     url: "/"
@@ -82,3 +81,50 @@ navigation:
         children:
           - title: "Nokil project"
             url: "/calicut/nikkola/noki"
+# Footer configuration
+footer:
+  columns:
+    - title: "Quick Links"
+      links:
+        - name: "Home"
+          url: "/"
+        - name: "About"
+          url: "/about/"
+        - name: "Community"
+          url: "/community/"
+        - name: "Support"
+          url: "/support/"
+    
+    - title: "Legal"
+      links:
+        - name: "Terms of Service"
+          url: "/terms/"
+        - name: "Privacy Policy"
+          url: "/privacy/"
+        - name: "Report Issue"
+          url: "/report/"
+    
+    - title: "Connect"
+      links:
+        - name: "GitHub"
+          url: "https://github.com/yourusername"
+        - name: "Twitter"
+          url: "https://twitter.com/yourusername"
+        - name: "Discord"
+          url: "https://discord.gg/yourlink"
+        - name: "Email"
+          url: "mailto:your@email.com"
+
+  social_links:
+    - name: "GitHub"
+      icon: "github"
+      url: "https://github.com/yourusername"
+    - name: "Twitter"
+      icon: "twitter"
+      url: "https://twitter.com/yourusername"
+    - name: "Discord"
+      icon: "discord"
+      url: "https://discord.gg/yourlink"
+    - name: "LinkedIn"
+      icon: "linkedin"
+      url: "https://linkedin.com/in/yourusername"
