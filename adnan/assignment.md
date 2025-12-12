@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms and Conditions
+permalink: /terms/
+---
 **Topic:** Meaning, Objectives, and Types of Financial Statement Analysis
 **Date:** October 26, 2023
 
